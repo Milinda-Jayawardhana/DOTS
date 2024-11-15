@@ -1,7 +1,6 @@
 import './App.css'
 import { Outlet,useLocation} from 'react-router-dom';
 import React, { useEffect } from 'react';
-import Footer from './components/Footer';
 import Header from './Components/Header';
 
 
@@ -35,7 +34,7 @@ function App() {
       
       
       <Outlet />
-      <Footer></Footer>
+      
     </div>
   )
 }
